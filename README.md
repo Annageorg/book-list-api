@@ -1,4 +1,5 @@
-# book-list-api
+# Book list API
+
 The ids are generated randomly and I have made an initial 5 items-list. See below the endpoints and the deployed app-link in Heroku to access the App.
 
 ### 1. Get full booklisting
