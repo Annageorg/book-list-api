@@ -8,7 +8,7 @@ https://annas-book-list-api.herokuapp.com/booklist
 ## Add books to list
 **POST** request at
 https://annas-book-list-api.herokuapp.com/booklist/create
-### JSON:
+JSON:
 ```
 [
 	{
@@ -50,10 +50,11 @@ https://annas-book-list-api.herokuapp.com/booklist/:id
 ## Edit book on the list by id
 **PUT** request at
 https://annas-book-list-api.herokuapp.com/booklist/:id
-### JSON:
-
+JSON:
+```
 {
 	"title": "new book title",
 	"author": "new author",
 	"read": true
 }
+```
