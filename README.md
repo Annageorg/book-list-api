@@ -2,13 +2,14 @@
 The ids are generated randomly and have made an initial 5 items list.
 
 ## Get full booklisting
-GET request at
+**GET** request at
 https://annas-book-list-api.herokuapp.com/booklist
 
 ## Add books to list
 **POST** request at
 https://annas-book-list-api.herokuapp.com/booklist/create
-JSON:
+### JSON:
+```
 [
 	{
 		"title": "title1",
@@ -36,19 +37,21 @@ JSON:
 		"read": false
 	}
 ]
+```
 
-//Show book by id
-GET request at
+## Show book by id
+**GET** request at
 https://annas-book-list-api.herokuapp.com/booklist/:id
 
-//Remove book from listing by id
-DEL request at
+## Remove book from listing by id
+**DEL** request at
 https://annas-book-list-api.herokuapp.com/booklist/:id
 
-//Edit book on the list by id
-PUT request at
+## Edit book on the list by id
+**PUT** request at
 https://annas-book-list-api.herokuapp.com/booklist/:id
-JSON:
+### JSON:
+
 {
 	"title": "new book title",
 	"author": "new author",
