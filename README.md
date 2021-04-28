@@ -1,12 +1,12 @@
 # book-list-api
 The ids are generated randomly and have made an initial 5 items list.
 
-// Get full booklisting
+## Get full booklisting
 GET request at
 https://annas-book-list-api.herokuapp.com/booklist
 
-//Add books to list
-POST request at
+## Add books to list
+**POST** request at
 https://annas-book-list-api.herokuapp.com/booklist/create
 JSON:
 [
