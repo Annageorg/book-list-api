@@ -21,7 +21,7 @@ exports.create = (req, res, next) => {
         title: req.body[cnt].title,
         author: req.body[cnt].author,
         read: req.body[cnt].read,
-        cnt: cnt
+        key: cnt
     })
     res.send({ result: true })
     cnt++
