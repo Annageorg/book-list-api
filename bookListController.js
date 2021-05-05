@@ -13,14 +13,14 @@ exports.index = (req, res) => {
 
 //Add books to list
 exports.create = (req, res, next) => {
-    if (!req.body[cnt].title) {
+    if (!req.body.title) {
         return (next(createError(400, "title is required")))
     }
     booklist.push({
         id: idgen(),
-        title: req.body[cnt].title,
-        author: req.body[cnt].author,
-        read: req.body[cnt].read,
+        title: req.body.title,
+        author: req.body.author,
+        read: req.body.read,
         key: cnt
     })
     res.send({ result: true })
