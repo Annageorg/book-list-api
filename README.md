@@ -1,6 +1,6 @@
 # Book list API
 
-The ids are generated randomly and I have made an initial 5 items-list. See below the endpoints and the deployed app-link in Heroku to use in Insomnia.
+The ids are generated randomly and one JSON object is expected each time. See below the endpoints and the deployed app-link in Heroku to use in Insomnia.
 
 ### 1. Get full booklisting
 **GET** request at
@@ -11,33 +11,13 @@ https://annas-book-list-api.herokuapp.com/booklist
 https://annas-book-list-api.herokuapp.com/booklist/create
 ##### JSON:
 ```
-[
+
 	{
 		"title": "title1",
 		"author": "author1",
 		"read": false
-	},
-	{
-		"title": "title2",
-		"author": "author2",
-		"read": false
-	},
-	{
-		"title": "title3",
-		"author": "author3",
-		"read": false
-	},
-	{
-		"title": "title4",
-		"author": "author4",
-		"read": false
-	},
-	{
-		"title": "title5",
-		"author": "author5",
-		"read": false
 	}
-]
+	
 ```
 
 ### 3. Show book by id
